@@ -1,0 +1,109 @@
+
+.container {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    max-height: 80% vh;
+    min-height: 30rem;
+    width: 40%;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 2px solid lightgray;
+    border-radius: 5px 5px 5px 5px;
+    z-index: auto;
+  }
+  
+  .dialog-title {
+    background-color: #3f51b5;
+    font-size: large;
+    color: white;
+    height: 45px;
+    width: 1238px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    padding: auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  
+  .title {
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+  }
+  
+  .closeIcon {
+    cursor: pointer;
+    padding-right: 10px;
+    color: whitesmoke;
+    margin: 5px;
+  }
+  
+  .content {
+    padding: 1rem !important;
+  }
+  
+  .content-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .label {
+    width: 20%;
+  }
+  
+  .content-map {
+    height: 7rem;
+    width: 60%;
+    border: 1px solid gray;
+  }
+  
+  .btns-row{
+    width: 80%;
+    display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: center;
+  }
+  
+  .btn-cancel-return {
+    background-color: orangered;
+    color: aliceblue;
+    width: 5rem;
+    border: 2px solid;
+    font-size: 14px;
+    height: 2rem;
+    border-radius: 5px;
+    line-height: 30px;
+  }
+  
+  .btn-save {
+    background-color: dodgerblue;
+    color: aliceblue;
+    width: 5rem;
+    border: 2px solid;
+    font-size: 14px;
+    height: 2rem;
+    border-radius: 5px;
+    line-height: 30px;
+  }
+  
+  
+  

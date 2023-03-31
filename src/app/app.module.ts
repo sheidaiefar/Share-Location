@@ -4,19 +4,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
-import { TileLayer } from 'leaflet';
 import { MapComponent } from './pages/map/map.component';
+import { LocationComponent } from './pages/location/location.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapComponent
+    MapComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    LeafletModule
+    LeafletModule,
+    ReactiveFormsModule
   ],
   providers: [],
   exports: [

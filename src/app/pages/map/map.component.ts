@@ -1,5 +1,6 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, HostListener } from '@angular/core';
 import * as Leaflet from 'leaflet';
+import { Observable, Subscriber } from 'rxjs';
 
 @Component({
   selector: 'app-map',
@@ -29,6 +30,10 @@ export class MapComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     this.initMap();
-
+    this.map.on('click', (e: any) => {
+      console.log(e);
+      //       let obj : any
+      //       obj.position = [lat, lang];
+    });
   }
 }
